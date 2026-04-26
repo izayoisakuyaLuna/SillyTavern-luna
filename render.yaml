@@ -7,3 +7,7 @@ services:
         value: 8000
       - key: HOST
         value: 0.0.0.0
+      - key: SILLYTAVERN_HEARTBEATINTERVAL
+        value: "30"
+    healthCheckPath: /
+    healthCheckTimeout: 90
