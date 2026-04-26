@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: sillytavern-luna
+    env: docker
+    envVars:
+      - key: PORT
+        value: 8000
+      - key: HOST
+        value: 0.0.0.0
